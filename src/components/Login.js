@@ -4,7 +4,7 @@ import React from "react";
 function Login() {
   return (
     <div>
-      <Link href="http://localhost:8000/api/auth/login">
+      <Link href="https://jarviot-challenge-full-stack-backend-omega.vercel.app/api/auth/login">
         <Button>Login</Button>
       </Link>
     </div>
