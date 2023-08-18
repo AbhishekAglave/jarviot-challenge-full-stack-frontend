@@ -21,7 +21,7 @@ function Report() {
         <Button
           onClick={async (event) => {
             setIsLoading(true);
-            const res = await axios.get("/api/drive/files");
+            const res = await axios.get("https://gdrive-b.onrender.com/api/drive/files");
             setData(res.data);
             setIsLoading(false);
           }}
