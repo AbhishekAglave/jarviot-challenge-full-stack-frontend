@@ -4,7 +4,7 @@ import React from "react";
 function Login() {
   return (
     <div>
-      <Link href="https://gdrive-b.onrender.com/api/api/auth/login">
+      <Link href="https://gdrive-b.onrender.com/api/auth/login">
         <Button>Login</Button>
       </Link>
     </div>
